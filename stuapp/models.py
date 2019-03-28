@@ -41,3 +41,6 @@ class Student(models.Model):
 
 class NewModel(models.Model):
     nname = models.CharField(max_length=50)
+
+class Clazz(models.Model):
+    Cname=models.CharField(max_length=30)
