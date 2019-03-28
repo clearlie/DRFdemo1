@@ -37,3 +37,7 @@ class Movie(models.Model):
 
 class Student(models.Model):
     sname = models.CharField(max_length=30)
+
+
+class NewModel(models.Model):
+    nname = models.CharField(max_length=50)
